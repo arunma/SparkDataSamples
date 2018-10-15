@@ -1,0 +1,1 @@
+create 'sensors', {NUMREGIONS => 15, SPLITALGO => 'HexStringSplit'}, {NAME=>'v', COMPRESSION=>'SNAPPY', BLOOMFILTER=> 'NONE', DATA_BLOCK_ENCODING => 'FAST_DIFF'}
